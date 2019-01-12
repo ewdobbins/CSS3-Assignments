@@ -1,0 +1,43 @@
+h1{
+	color : #FFFFFF;
+	text-align: center;
+	text-transform: uppercase; 
+	font-size: 200%;
+	font-family: serif, Arial, "Times New Roman";
+}
+header{
+	background: #BBBBBB;
+	
+}
+
+a {
+	color: #000000;
+	background: #D2D2D2;
+	font-family: serif, Arial, "Times New Roman";
+}
+
+h2{
+	color: #0000AA;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: serif, Arial, "Times New Roman";
+}
+
+aside {
+	display: none;
+}
+
+nav{
+	font-size: 100%;
+	color: #000000;
+	font-family: Arial, "Times New Roman", serif;
+}
+
+section{
+	background: #808080;
+	font-family: serif, Arial, "Times New Roman";
+}
+
+p {
+	font-family: serif, Arial, "Times New Roman";
+}
