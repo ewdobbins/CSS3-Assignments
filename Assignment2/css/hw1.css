@@ -2,29 +2,31 @@ h1{
 	color : #FFFFFF;
 	text-align: center;
 	text-transform: uppercase; 
-	font-size: 200%;
+	font-size: 100%;
 	font-family: serif, Arial, "Times New Roman";
 }
 header{
+	display: inline-block;
+	margin: 0px;
+	height: 140px;
+	width: 100%;
+	padding: 20px;
 	background: #BBBBBB;
-	
+	background-image: url("../images/flywheel.jpg")
 }
 
-a {
+nav a {
 	color: #000000;
-	background: #D2D2D2;
+	background: #FFFFFF88;
+	display: inline-block;
+	text-align: center;
+	width: 15%;
+	height: 20px;
+	margin-right: 2%;
+	padding: 20px;
+	border-radius: 5px;
+	text-decoration: none;
 	font-family: serif, Arial, "Times New Roman";
-}
-
-h2{
-	color: #0000AA;
-	text-align: left;
-	text-transform: uppercase;
-	font-family: serif, Arial, "Times New Roman";
-}
-
-aside {
-	display: none;
 }
 
 nav{
@@ -32,10 +34,45 @@ nav{
 	color: #000000;
 	font-family: Arial, "Times New Roman", serif;
 }
+.active {
+	color: #000000;
+	background: #FFFFFF;
+
+}
+
+h2{
+	text-align: left;
+	font-family: serif, Arial, "Times New Roman";
+}
+
+aside {
+	background: #006600;
+	width: 20%;
+	height: 500px;
+	padding-top: 10px;
+	display: inline-block;
+	float: left;
+	/*right-margin: 5px;*/
+}
+aside img {
+	border: 1px solid #000000;
+	width: 80%;
+	display: block center;
+	margin: 5px;
+}
+
+body{
+	display: inline-block;
+}
 
 section{
-	background: #808080;
 	font-family: serif, Arial, "Times New Roman";
+	display: inline;
+	width:79%;
+	height:500px;
+	left-margin: 5px;
+	float: right;
+
 }
 
 p {
