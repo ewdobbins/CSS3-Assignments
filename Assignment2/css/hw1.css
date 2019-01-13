@@ -2,12 +2,11 @@ h1{
 	color : #FFFFFF;
 	text-align: center;
 	text-transform: uppercase; 
-	font-size: 100%;
+	font-size: 125%;
 	font-family: serif, Arial, "Times New Roman";
 }
 header{
 	display: inline-block;
-	margin: 0px;
 	height: 140px;
 	width: 100%;
 	padding: 20px;
@@ -29,15 +28,25 @@ nav a {
 	font-family: serif, Arial, "Times New Roman";
 }
 
-nav{
-	font-size: 100%;
-	color: #000000;
-	font-family: Arial, "Times New Roman", serif;
-}
 .active {
 	color: #000000;
 	background: #FFFFFF;
 
+}
+
+.left{
+float: left;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+
+.right{
+float:right;
+display: block;
+width:79%;
+font-family: serif, Arial, "Times New Roman";
 }
 
 h2{
@@ -46,35 +55,19 @@ h2{
 }
 
 aside {
-	background: #006600;
-	width: 20%;
-	height: 500px;
-	padding-top: 10px;
-	display: inline-block;
-	float: left;
-	/*right-margin: 5px;*/
+	background: #307030;
+	padding-top: 20px;
+
 }
+
 aside img {
 	border: 1px solid #000000;
 	width: 80%;
-	display: block center;
-	margin: 5px;
+	margin: 10%;
 }
 
 body{
 	display: inline-block;
-}
-
-section{
-	font-family: serif, Arial, "Times New Roman";
-	display: inline;
-	width:79%;
-	height:500px;
-	left-margin: 5px;
-	float: right;
-
-}
-
-p {
-	font-family: serif, Arial, "Times New Roman";
+	margin: 10px;
+	padding: 10px;
 }
